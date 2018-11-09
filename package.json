@@ -1,0 +1,36 @@
+{
+  "name": "micro-yup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "lint": "neutrino lint",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@neutrinojs/airbnb-base": "^8.3.0",
+    "@neutrinojs/jest": "^8.3.0",
+    "@neutrinojs/library": "^8.3.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "neutrino": "^8.3.0",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "micro": "^9.3.3",
+    "qs": "^6.5.2",
+    "url": "^0.11.0",
+    "yup": "^0.26.6"
+  },
+  "jest": {
+    "verbose": true,
+    "bail": true,
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
